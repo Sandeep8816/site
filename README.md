@@ -1,3 +1,3 @@
 # site
 - A basic website
--designed by Sandeep Sharma
+- designed by Sandeep Sharma
