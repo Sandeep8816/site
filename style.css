@@ -1,0 +1,182 @@
+            * {
+                margin: 0%;
+                padding: 0%;
+                box-sizing: border-box;
+                font-family: 'Rubik', sans-serif;
+            }
+            
+            .image {
+                background-size: 2000px;
+                background-attachment: fixed;
+                background-image: url('images/first.jpg');
+                height: auto;
+                padding-bottom: 20vh;
+                background-repeat: no-repeat;
+            }
+            
+            .nav-item:hover {
+                background-color: rgb(247, 33, 182);
+            }
+            
+            .headerset {
+                padding-top: 250px;
+                box-sizing: border-box;
+            }
+            
+            .headerset h2 {
+                color: rgb(216, 75, 209);
+                font-size: 42px;
+            }
+            
+            .headerset h1 {
+                color: rgb(216, 75, 209);
+                font-size: 72px;
+            }
+            /* .........ourservice........ */
+            
+            .ourservices {
+                background-color: aqua;
+                margin-top: 10vh;
+                margin-bottom: 10vh;
+                height: auto !important;
+            }
+            
+            .ourservices h1 {
+                font-size: 50px;
+                font-weight: bold;
+            }
+            
+            .ourservices {
+                height: 700px;
+                padding: 100px 0px 60px;
+            }
+            
+            .rowsetting {
+                margin: 80px 0px !important;
+            }
+            
+            .rowsetting h2 {
+                margin-top: 20px;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            
+            .rowsetting p {
+                padding: 10px;
+                color: #6c757d !important;
+            }
+            /* .....................gallery.................... */
+            
+            .gallery {
+                padding-top: 20px;
+            }
+            
+            .card {
+                margin: 20px;
+            }
+            /* ..........................intro..................... */
+            
+            .intro {
+                display: block;
+                justify-content: space-around;
+                height: auto;
+                padding-bottom: 15vh;
+                padding-top: 5vh;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            
+            .intrro {
+                margin-top: 10vh;
+            }
+            
+            .aboutone {
+                margin-top: 5vh;
+            }
+            
+            .aboutone p {
+                color: #6c757d;
+            }
+            
+            .abouttwo p {
+                color: #6c757d;
+            }
+            
+            .span {
+                color: white;
+            }
+            
+            .abouttwo {
+                margin-top: 5vh;
+            }
+            /* .........................ourteam................ */
+            
+            .ourteam {
+                height: auto;
+                padding: 100px 0px 60px;
+                width: 80%;
+            }
+            
+            .ourteam h1 {
+                font-size: 50px;
+                font-weight: bold;
+            }
+            
+            .teamsetting {
+                margin-top: 50px;
+            }
+            /* ....................contact us............. */
+            
+            .contact {
+                height: auto;
+                margin-bottom: 10vh;
+            }
+            
+            .contt {
+                width: 80%;
+                padding-left: 20vw;
+                padding-right: 10vw;
+            }
+            
+            .contheading {
+                font-size: 50px;
+                font-weight: bold;
+                margin-top: 10vh;
+                margin-bottom: 10vh;
+                align-items: center;
+                height: auto;
+            }
+            /* ...........................footer..................... */
+            
+            .footer {
+                height: 50px;
+                color: beige;
+                background-color: black;
+                /* align-items: center; */
+            }
+            
+            .footer h6 {
+                line-height: 50px;
+            }
+            /* ..........................responsive............................ */
+            
+            @media(min-width: 300px)and (max-width:574px) {
+                .headerset h2 {
+                    font-size: 22px;
+                }
+                .headerset h1 {
+                    font-size: 42px;
+                }
+                .ourservices {
+                    height: 2000px;
+                }
+                .gallery {
+                    height: 2500px;
+                }
+                .ourteam {
+                    height: 1400px;
+                }
+                .contheading {
+                    margin-right: 10px;
+                }
+            }
